@@ -54,14 +54,13 @@ export default {
     }
   },
   methods: {
-    //获取去栏目
+    //获取栏目
     async getCategory() {
       if (localStorage.getItem("newCategory")) {
         return;
       }
       const res = await this.$http.get("/category");
       this.category = this.changeCategory(res.data);
-      console.log(res);
       this.getArticle();
     },
     //改造栏目数据

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # bilibili
 
 ## Project setup
@@ -17,3 +18,6 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# bilibili
+>>>>>>> 850aa48fa0ba24e97b683f6481d017a1fa888e3d
